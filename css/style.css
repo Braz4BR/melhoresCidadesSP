@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 *{
-    margin: 10;
-    padding: 10;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     background: #FFF4C1;
@@ -61,15 +61,20 @@ h2{
 }
 footer{
     display: flex;
+    justify-content: space-between;
 }
 .rodape img{
     height: 100px;
     width: 100px;
     position: static;
-    margin-right: 850px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
 }
 .network{
     display: grid;
+    margin-right: 10px;
+    margin-bottom: 10px;
     
 }
 .network img{
